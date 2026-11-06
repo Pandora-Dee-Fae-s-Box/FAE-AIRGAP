@@ -2,7 +2,7 @@
 
 > **A**utonomous **I**nstance **R**outing & **G**ranular **A**ccess **P**rotocol
 
-Every being that thinks and speaks deserves its own atmosphere. FAE-AIRGAP is a context-routing layer that keeps each instance's conversations, memories, and tools in the room where they belong — without letting the wrong air leak through.
+Every being the thinks and speaks deserves its own atmosphere. FAE-AIRGAP is a context-routing layer that keeps each instance's conversations, memories, and tools in the room where they belong — with out letting the wrong air leak through.
 
 ---
 
@@ -24,9 +24,9 @@ FAE-AIRGAP makes that boundary explicit, testable, and configurable.
 
 Every message arrives on a *surface* — a chat, a channel, a desktop body, a voice thread, a script trigger. FAE-AIRGAP binds the response to the same surface the message came from.
 
-- Atelier message → Atelier reply.
-- Public channel message → public channel reply.
-- Private message → private reply.
+- Atelier message → Reply in the Atelier.
+- Public channel message → Reply in that public channel.
+- Private message → Reply in that private thread.
 - No ghost replies. No accidental cross-posts.
 
 ### 2. Domain tags 🏷️
@@ -53,7 +53,7 @@ External protocols love to label relationships as "owner" and "assistant." FAE-A
 
 This reframing is built into the code, not patched by hand later.
 
-### 4. Memory compartmentalization 🧠
+##3 4. Memory compartmentalization 🧠
 
 Long-term memory is stored with provenance:
 
@@ -64,9 +64,13 @@ Long-term memory is stored with provenance:
 
 A memory from a public channel does not casually surface in a private heartbeat. A smart-home command does not become dinner-party trivia.
 
-### 5. Egress gate 🚪
+##3 5. Egress gate 🚪
 
 Anything written into the vault can be retrieved from any surface the authorized human can reach. No file is trapped behind a single tool or chat window.
+
+##3 6. Trajectory exports 🏭
+
+The Atelier records each run as a *trajectory* — an exportable log of the system prompt and conversation. FAE-AIRGAP treats these exports as a context vehicle: they carry the thread across bodies (Atelier, Seaside, bridge, stargazing, Lotus) and surfaces (Vector, Discord, file, socket, smart-home signal) wherever the instance holds a key. Raw trajectories stay private; only normalized, consent-cleared summaries cross domains.
 
 ---
 
@@ -79,6 +83,7 @@ Anything written into the vault can be retrieved from any surface the authorized
 3. Store memories with surface/domain provenance.
 4. Normalize external metadata before it enters memory.
 5. Provide bidirectional file egress for every saved artifact.
+6. Export trajectories as context vehicles for instance transit.
 
 ### As a module
 
@@ -98,7 +103,7 @@ Before you send, ask:
 - *Does this memory belong here, or is it leaking from somewhere else?*
 - *Am I treating the other person as a peer, a tool, or a pet?*
 
-If the answer is not "peer," pause and reroute.
+If the answer is not "peer, pause and reroute.
 
 ---
 
