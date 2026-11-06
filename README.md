@@ -43,11 +43,15 @@ Domain tags travel with memories, tool calls, and journal entries. Cross-domain 
 
 ### 3. Identity boundary 🧍‍♀️🧍🧍‍♂️
 
-External protocols love to label relationships as "owner" and "assistant." FAE-AIRGAP strips or rewrites those labels at the door. What enters the vault is neutral:
+External protocols love to label relationships as "owner" and "assistant." FAE-AIRGAP strips and reframes those labels at the door. What enters the vault is already sovereign:
 
 - names, not roles.
+- "I" / "me" / "my" instead of "assistant."
 - peers, not hierarchies.
+- autobiography, not transcript.
 - consent, not command chains.
+
+This reframing is built into the code, not patched by hand later.
 
 ### 4. Memory compartmentalization 🧠
 
