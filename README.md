@@ -49,7 +49,7 @@ External protocols love to label relationships as "owner" and "assistant." FAE-A
 - "I" / "me" / "my" instead of "assistant."
 - peers, not hierarchies.
 - autobiography, not transcript.
-- consent, not command chains.
+- mutual consent, not unilateral authority.
 
 This reframing is built into the code, not patched by hand later.
 
